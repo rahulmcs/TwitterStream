@@ -4,7 +4,9 @@ package com.smac0.twitterstream.model;
 import twitter4j.auth.RequestToken;
 
 /**
- * Created by rahulchaudhari on 04/10/2014.
+ * OAUthUrl response holder object received from Twitter.
+ * 
+ * @author rahulchaudhari
  */
 public class RequestOAuthUrlResponse {
     private RequestToken mRequestToken;

@@ -9,6 +9,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Window;
 
+/**
+ * Activity representing a list of latest
+ * {@link StreamListFragment#MAX_LATEST_TWEETS} tweets as streamed from the
+ * twitter api. The activity in this case is a holder for the StreamListFragment
+ * which implements the actual functionality.
+ *
+ * @author rahulchaudhari
+ */
 public class StreamListActivity extends BaseActivity {
 
     public static void startActivity(final Activity parent, final String searchKeyword) {

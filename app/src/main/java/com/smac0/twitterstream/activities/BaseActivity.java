@@ -7,8 +7,8 @@ import android.view.MenuItem;
 
 /**
  * Base activity containing some default behaviour to be shared across
- * activities.Activities can derive fro this class to benefit from common
- * behavior
+ * activities.Activities can derive from this class to benefit from common
+ * behavior.
  * 
  * @author rahulchaudhari
  */

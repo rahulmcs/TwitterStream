@@ -6,6 +6,13 @@ import com.smac0.twitterstream.fragments.OAuthWebViewFragment;
 
 import android.os.Bundle;
 
+/**
+ * Fragment providing user to login using his twitter account via oAuth
+ * authorization on the web interface. The activity in this case is a holder for
+ * the OAuthWebViewFragment which implements the actual functionality.
+ *
+ * @author rahulchaudhari
+ */
 public class OAuthWebViewActivity extends BaseActivity {
 
     @Override

@@ -14,6 +14,12 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuInflater;
 
+/**
+ * Activity providing keyword search interface for twitter streams.
+ * 
+ * @author rahulchaudhari
+ */
+
 public class StreamSearchActivity extends BaseActivity {
 
     public static void startActivity(Activity parent) {

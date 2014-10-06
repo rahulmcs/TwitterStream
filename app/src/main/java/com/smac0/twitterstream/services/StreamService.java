@@ -71,7 +71,7 @@ public class StreamService extends Service implements StatusListener {
 
         // create a new thread to destroy the stream which can sometimes be a
         // blocking
-        // operation- we do not want to block the UI thread
+        // operation - we do not want to block the UI thread
         new Thread(new Runnable() {
             @Override
             public void run() {
