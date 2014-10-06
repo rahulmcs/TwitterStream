@@ -7,7 +7,6 @@ import com.smac0.twitterstream.fragments.StreamListFragment;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Window;
 
 /**
  * Activity representing a list of latest
@@ -36,7 +35,6 @@ public class StreamListActivity extends BaseActivity {
                                     StreamListFragment.ARG_TRACK_KEYWORD)), StreamListFragment.TAG)
                     .commit();
         }
-        supportRequestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(getString(R.string.twitter_stream_list_title, trackKeyword));
     }
