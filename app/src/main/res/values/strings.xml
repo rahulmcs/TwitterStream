@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Twitter Stream</string>
+    <string name="twitter_login_hint">Please login below using your twitter account.Note that this application will not tweet on your behalf but will only use your account for authorization access.</string>
+    <string name="twitter_login_button_title">Login using twitter</string>
+    <string name="twitter_oauth_signin_title">Twitter sign-in</string>
+    <string name="twitter_login_unsuccessful">Unable to login at this time. Please try again later</string>
+    <string name="twitter_search_hint">Search tweets</string>
+    <string name="twitter_search_title">Twitter track search</string>
+    <string name="twitter_search_welcome">Welcome to Twitter Stream! Please click the search option to type a keyword and track tweets in real time.</string>
+
+    <string name="twitter_stream_empty_text">No tweets yet</string>
+    <string name="twitter_stream_list_title">Streaming for \'%s\'</string>
+    <string name="twitter_no_network_available">No network available. Try again later.</string>
+</resources>
